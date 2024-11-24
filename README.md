@@ -15,5 +15,5 @@ convert atari-logo.png -depth 1 gray:output.raw
 The result can be compiled with the MAD Assembler:
 
 ```sh
-mads -o:logo.xex logo.asm
+mads -o:logo.xex logo.s
 ```
