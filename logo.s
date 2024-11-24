@@ -34,27 +34,9 @@ dli:    PHA
         
 dl:     dta $70, $70, $70
         dta $CF, $50, $81
-        dta $8F, $8F, $8F, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f
+:92     dta $8F
         dta $CF, $00, $90
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f, $8f
-        dta $8f, $8f, $8f, $8f, $8f, $8f, $8f
+:96     dta $8F
         dta $41, .lo(dl), .hi(dl)
 
         org $02E0
